@@ -1,1 +1,3 @@
 date,tool,what_i_asked,type,what_i_learned
+2026-09-29,"Claude","Diagnose why python3 pointed to 3.13 instead of my conda env","tutor","My shell checks PATH folders in order and uses the first match. python found my conda env but python3 found the old python.org 3.13 install first. Commenting out the PATH line in .zprofile and turning off VS Code Inherit Env fixed it. now i know to always check which python3 before installing anything."
+2026-09-29,"Claude","Scaffold folders, .gitignore, and first commit","delegate","Git does not track empty folders so .gitkeep files hold the structure in place."
