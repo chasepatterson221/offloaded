@@ -1,0 +1,29 @@
+# --- Data: never commit (LMSYS license prohibits redistribution) ---
+data/raw/*
+data/curated/*
+!data/raw/.gitkeep
+!data/curated/.gitkeep
+*.parquet
+*.duckdb
+*.duckdb.wal
+
+# --- Secrets ---
+.env
+.streamlit/secrets.toml
+*.pem
+
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+
+# --- dbt ---
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+logs/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
